@@ -5,6 +5,7 @@ import Person from './Person/Person';
 import Banner from './Banner/Banner';
 import User from './User/User';
 import Checklist from './Checklist/Checklist';
+import Board from './Board/Board';
 
 class App extends Component {
   state = {
@@ -51,6 +52,7 @@ class App extends Component {
                     click={this.switchNameHendler} changed={this.nameChangedHendler}>My hobbies: Swimming</Person>
             <Person name={this.state.persons[2].name} age={this.state.persons[2].age}/>
               <Checklist/>
+              <Board/>
 
           </div>
         );

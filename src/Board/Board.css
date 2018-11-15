@@ -1,0 +1,9 @@
+/*
+//Style for board component
+*/
+.board {
+    display: inline-block;
+    width: 100%;
+    background: linear-gradient(transparent, aquamarine);
+    padding: 20px;
+}

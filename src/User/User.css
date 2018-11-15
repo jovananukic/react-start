@@ -1,0 +1,17 @@
+/*
+//Style for user component
+*/
+.user {
+    display: inline-block;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.user p {
+    color: #282c34;
+    text-transform: capitalize;
+}
+
+.user p span {
+    color: #61dafb;
+}

@@ -1,0 +1,13 @@
+/*
+//Style for banner component
+*/
+.banner {
+  display: inline-block;
+  width: 100%;
+  background-color: #61dafb;
+}
+
+.banner h1 {
+    color: white;
+    text-transform: uppercase;
+}

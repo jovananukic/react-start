@@ -1,0 +1,30 @@
+/*
+//Style for note component
+*/
+.note {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    box-shadow: 2px 2px rgba(204, 204, 204, 0.61);
+}
+button {
+    display: none;
+}
+button.save {
+    display: block;
+}
+.note:hover >button {
+    display: inline-block;
+}
+button {
+    cursor: pointer;
+    border: none;
+    padding: 3px;
+}
+#edit {
+    background-color: #46a059;
+}
+#remove {
+    background-color: coral;
+}

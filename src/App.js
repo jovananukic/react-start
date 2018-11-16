@@ -8,6 +8,28 @@ import Checklist from './Checklist/Checklist';
 import Board from './Board/Board';
 
 class App extends Component {
+    // Method that happens right before initial render happens, before the DOM renders for the first time
+    // componentWillMount() {
+    //     alert('Page will load');
+    // }
+    // componentDidMount() {
+    //     alert("It's loaded");
+    // }
+    // constructor (props) {
+    //     super(props)
+    //     this.state = {
+    //         backgroundColor: 'azure'
+    //     }
+    //     this.update = this.update.bind(this);
+    // }
+    // update() {
+    //     this.setState({
+    //         backgroundColor: 'wheat'
+    //     })
+    // }
+    // componentDidUpdate() {
+    //     alert('Did updated');
+    // }
   state = {
     // 38video
     users: [
@@ -52,7 +74,7 @@ class App extends Component {
                     click={this.switchNameHendler} changed={this.nameChangedHendler}>My hobbies: Swimming</Person>
             <Person name={this.state.persons[2].name} age={this.state.persons[2].age}/>
               <Checklist/>
-              <Board/>
+              <Board count={50}/>
 
           </div>
         );

@@ -2,7 +2,10 @@
 //Style for note component
 */
 .note {
+    position: relative;
     display: inline-block;
+    margin: 15px;
+    float: left;
     width: 200px;
     height: 200px;
     background-color: yellow;
